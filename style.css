@@ -1,0 +1,148 @@
+body{
+    background-color: white;
+    margin:0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white; 
+}
+
+.firstContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: #1F2937;
+    color: white;
+    gap: 40px;
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+#author{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+    align-self: flex-end;
+}
+
+.thirdContainer p{
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    color: #1F2937;
+    width: 50%;
+}
+
+
+.thirdContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+.thourthContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.callToAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    padding: 40px;
+}
+
+.callToAction button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 25px;
+    margin: auto;
+}
+
+.wrapperContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.wrapper{
+    border: 4px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.textContainer{
+    width: 25%;
+}
+
+.imagePlaceholder{
+    text-align: center;
+    background-color: grey;
+    width: 500px;
+    height: 200px;
+}
+
+.textContainer button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav .links a {
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    margin: 0;
+}
